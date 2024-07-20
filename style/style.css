@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FEFBF1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #703412;
+}
+
+.container {
+    max-width: 1056px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    margin: 27px 0 140px;
+    color: #703412;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    padding-right: 40px;
+}
+
+.menu-link {
+    font-size: 14px;
+    line-height: 21px;
+    transition: color 0.3s;
+}
+
+.menu-link:hover {
+    color: #ff9800;
+}
+
+.headline-p {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-size: 11px;
+    line-height: 44px;
+}
+
+.title {
+    max-width: 848px;
+    font-size: 80px;
+    line-height: 88px;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.tittle2 {
+    max-width: 571px;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-top: 0;
+
+    margin-bottom: 194px;
+}
+
+.cards-list {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-item {
+    width: 30%;
+    text-align: left;
+
+}
+
+
+
+.card-item img {
+    /* float: left;
+    margin-left: 0; */
+    margin-bottom: 13px;
+}
+
+
+
+.card-item h3 {
+    font-size: 24px;
+    line-height: 28.8px;
+    margin: 0 0 11px;
+}
+
+.card-item p {
+    margin: 0;
+    margin-bottom: 66px;
+    font-size: 12px;
+    opacity: 72%;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+
+    margin-bottom: 122px;
+}
+
+.contacts {
+    padding-top: 120px;
+    padding-bottom: 26px;
+    background-color: #084935;
+    color: white;
+}
+
+.contact {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+}
+
+.contacts-p {
+    margin-bottom: 110px;
+    max-width: 720px;
+    font-size: 30px;
+    line-height: 38.4px;
+}
+
+.phrase {
+    opacity: 72%;
+}
+
+.contacts-item {
+    font-size: 16px;
+    opacity: 72%;
+}
+
+.contacts-list-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 81px;
+
+}
+
+.contacts-list {
+    cursor: pointer;
+}
+
+hr {
+    opacity: 16%;
+}
+
+.Copyright {
+    margin-bottom: 0;
+}
